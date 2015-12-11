@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165121471C1B6FCF00CAD322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165121461C1B6FCF00CAD322 /* AppDelegate.swift */; };
+		165121491C1B6FCF00CAD322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165121481C1B6FCF00CAD322 /* ViewController.swift */; };
+		1651214C1C1B6FCF00CAD322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1651214A1C1B6FCF00CAD322 /* Main.storyboard */; };
+		1651214E1C1B6FCF00CAD322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1651214D1C1B6FCF00CAD322 /* Assets.xcassets */; };
+		165121511C1B6FCF00CAD322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1651214F1C1B6FCF00CAD322 /* LaunchScreen.storyboard */; };
+		1651215C1C1B6FCF00CAD322 /* redBlueAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1651215B1C1B6FCF00CAD322 /* redBlueAppTests.swift */; };
+		165121671C1B6FCF00CAD322 /* redBlueAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165121661C1B6FCF00CAD322 /* redBlueAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		165121581C1B6FCF00CAD322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1651213B1C1B6FCF00CAD322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165121421C1B6FCF00CAD322;
+			remoteInfo = redBlueApp;
+		};
+		165121631C1B6FCF00CAD322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1651213B1C1B6FCF00CAD322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165121421C1B6FCF00CAD322;
+			remoteInfo = redBlueApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		165121431C1B6FCF00CAD322 /* redBlueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redBlueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		165121461C1B6FCF00CAD322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		165121481C1B6FCF00CAD322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1651214B1C1B6FCF00CAD322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1651214D1C1B6FCF00CAD322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		165121501C1B6FCF00CAD322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		165121521C1B6FCF00CAD322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165121571C1B6FCF00CAD322 /* redBlueAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redBlueAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1651215B1C1B6FCF00CAD322 /* redBlueAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redBlueAppTests.swift; sourceTree = "<group>"; };
+		1651215D1C1B6FCF00CAD322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165121621C1B6FCF00CAD322 /* redBlueAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redBlueAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165121661C1B6FCF00CAD322 /* redBlueAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redBlueAppUITests.swift; sourceTree = "<group>"; };
+		165121681C1B6FCF00CAD322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165121401C1B6FCF00CAD322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165121541C1B6FCF00CAD322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1651215F1C1B6FCF00CAD322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1651213A1C1B6FCF00CAD322 = {
+			isa = PBXGroup;
+			children = (
+				165121451C1B6FCF00CAD322 /* redBlueApp */,
+				1651215A1C1B6FCF00CAD322 /* redBlueAppTests */,
+				165121651C1B6FCF00CAD322 /* redBlueAppUITests */,
+				165121441C1B6FCF00CAD322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		165121441C1B6FCF00CAD322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165121431C1B6FCF00CAD322 /* redBlueApp.app */,
+				165121571C1B6FCF00CAD322 /* redBlueAppTests.xctest */,
+				165121621C1B6FCF00CAD322 /* redBlueAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		165121451C1B6FCF00CAD322 /* redBlueApp */ = {
+			isa = PBXGroup;
+			children = (
+				165121461C1B6FCF00CAD322 /* AppDelegate.swift */,
+				165121481C1B6FCF00CAD322 /* ViewController.swift */,
+				1651214A1C1B6FCF00CAD322 /* Main.storyboard */,
+				1651214D1C1B6FCF00CAD322 /* Assets.xcassets */,
+				1651214F1C1B6FCF00CAD322 /* LaunchScreen.storyboard */,
+				165121521C1B6FCF00CAD322 /* Info.plist */,
+			);
+			path = redBlueApp;
+			sourceTree = "<group>";
+		};
+		1651215A1C1B6FCF00CAD322 /* redBlueAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1651215B1C1B6FCF00CAD322 /* redBlueAppTests.swift */,
+				1651215D1C1B6FCF00CAD322 /* Info.plist */,
+			);
+			path = redBlueAppTests;
+			sourceTree = "<group>";
+		};
+		165121651C1B6FCF00CAD322 /* redBlueAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				165121661C1B6FCF00CAD322 /* redBlueAppUITests.swift */,
+				165121681C1B6FCF00CAD322 /* Info.plist */,
+			);
+			path = redBlueAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165121421C1B6FCF00CAD322 /* redBlueApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1651216B1C1B6FCF00CAD322 /* Build configuration list for PBXNativeTarget "redBlueApp" */;
+			buildPhases = (
+				1651213F1C1B6FCF00CAD322 /* Sources */,
+				165121401C1B6FCF00CAD322 /* Frameworks */,
+				165121411C1B6FCF00CAD322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redBlueApp;
+			productName = redBlueApp;
+			productReference = 165121431C1B6FCF00CAD322 /* redBlueApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		165121561C1B6FCF00CAD322 /* redBlueAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1651216E1C1B6FCF00CAD322 /* Build configuration list for PBXNativeTarget "redBlueAppTests" */;
+			buildPhases = (
+				165121531C1B6FCF00CAD322 /* Sources */,
+				165121541C1B6FCF00CAD322 /* Frameworks */,
+				165121551C1B6FCF00CAD322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165121591C1B6FCF00CAD322 /* PBXTargetDependency */,
+			);
+			name = redBlueAppTests;
+			productName = redBlueAppTests;
+			productReference = 165121571C1B6FCF00CAD322 /* redBlueAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		165121611C1B6FCF00CAD322 /* redBlueAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165121711C1B6FCF00CAD322 /* Build configuration list for PBXNativeTarget "redBlueAppUITests" */;
+			buildPhases = (
+				1651215E1C1B6FCF00CAD322 /* Sources */,
+				1651215F1C1B6FCF00CAD322 /* Frameworks */,
+				165121601C1B6FCF00CAD322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165121641C1B6FCF00CAD322 /* PBXTargetDependency */,
+			);
+			name = redBlueAppUITests;
+			productName = redBlueAppUITests;
+			productReference = 165121621C1B6FCF00CAD322 /* redBlueAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1651213B1C1B6FCF00CAD322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Justin Sorrells";
+				TargetAttributes = {
+					165121421C1B6FCF00CAD322 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					165121561C1B6FCF00CAD322 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 165121421C1B6FCF00CAD322;
+					};
+					165121611C1B6FCF00CAD322 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 165121421C1B6FCF00CAD322;
+					};
+				};
+			};
+			buildConfigurationList = 1651213E1C1B6FCF00CAD322 /* Build configuration list for PBXProject "redBlueApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1651213A1C1B6FCF00CAD322;
+			productRefGroup = 165121441C1B6FCF00CAD322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				165121421C1B6FCF00CAD322 /* redBlueApp */,
+				165121561C1B6FCF00CAD322 /* redBlueAppTests */,
+				165121611C1B6FCF00CAD322 /* redBlueAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165121411C1B6FCF00CAD322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165121511C1B6FCF00CAD322 /* LaunchScreen.storyboard in Resources */,
+				1651214E1C1B6FCF00CAD322 /* Assets.xcassets in Resources */,
+				1651214C1C1B6FCF00CAD322 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165121551C1B6FCF00CAD322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165121601C1B6FCF00CAD322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1651213F1C1B6FCF00CAD322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165121491C1B6FCF00CAD322 /* ViewController.swift in Sources */,
+				165121471C1B6FCF00CAD322 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165121531C1B6FCF00CAD322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1651215C1C1B6FCF00CAD322 /* redBlueAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1651215E1C1B6FCF00CAD322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165121671C1B6FCF00CAD322 /* redBlueAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		165121591C1B6FCF00CAD322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165121421C1B6FCF00CAD322 /* redBlueApp */;
+			targetProxy = 165121581C1B6FCF00CAD322 /* PBXContainerItemProxy */;
+		};
+		165121641C1B6FCF00CAD322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165121421C1B6FCF00CAD322 /* redBlueApp */;
+			targetProxy = 165121631C1B6FCF00CAD322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1651214A1C1B6FCF00CAD322 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1651214B1C1B6FCF00CAD322 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1651214F1C1B6FCF00CAD322 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165121501C1B6FCF00CAD322 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		165121691C1B6FCF00CAD322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1651216A1C1B6FCF00CAD322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1651216C1C1B6FCF00CAD322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = redBlueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TGC.redBlueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1651216D1C1B6FCF00CAD322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = redBlueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TGC.redBlueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1651216F1C1B6FCF00CAD322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = redBlueAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TGC.redBlueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redBlueApp.app/redBlueApp";
+			};
+			name = Debug;
+		};
+		165121701C1B6FCF00CAD322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = redBlueAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TGC.redBlueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redBlueApp.app/redBlueApp";
+			};
+			name = Release;
+		};
+		165121721C1B6FCF00CAD322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = redBlueAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TGC.redBlueAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redBlueApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		165121731C1B6FCF00CAD322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = redBlueAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TGC.redBlueAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redBlueApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1651213E1C1B6FCF00CAD322 /* Build configuration list for PBXProject "redBlueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165121691C1B6FCF00CAD322 /* Debug */,
+				1651216A1C1B6FCF00CAD322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1651216B1C1B6FCF00CAD322 /* Build configuration list for PBXNativeTarget "redBlueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1651216C1C1B6FCF00CAD322 /* Debug */,
+				1651216D1C1B6FCF00CAD322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1651216E1C1B6FCF00CAD322 /* Build configuration list for PBXNativeTarget "redBlueAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1651216F1C1B6FCF00CAD322 /* Debug */,
+				165121701C1B6FCF00CAD322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		165121711C1B6FCF00CAD322 /* Build configuration list for PBXNativeTarget "redBlueAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165121721C1B6FCF00CAD322 /* Debug */,
+				165121731C1B6FCF00CAD322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1651213B1C1B6FCF00CAD322 /* Project object */;
+}
